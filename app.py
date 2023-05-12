@@ -50,7 +50,7 @@ def handle_message(event):
   try:
 
     response = openai.ChatCompletion.create(
-      model="gpt-3.5-turbo-0301",
+      model="gpt-4",
 #      model="text-davinci-003",
 
       # 猫の部分はいじっても大丈夫
