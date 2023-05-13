@@ -50,7 +50,7 @@ def handle_message(event):
   try:
 
     response = openai.ChatCompletion.create(
-      model="text-davinci-003",
+      model="gpt-3.5-turbo-0301",
 #      model="text-davinci-003",
 
       messages=[
