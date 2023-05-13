@@ -50,10 +50,9 @@ def handle_message(event):
   try:
 
     response = openai.ChatCompletion.create(
-      model="gpt-4",
+      model="text-davinci-003",
 #      model="text-davinci-003",
 
-      # 猫の部分はいじっても大丈夫
       messages=[
         {"role": "user", "content":event.message.text}
       ]
